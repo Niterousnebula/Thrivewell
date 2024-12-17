@@ -5,7 +5,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Set your API key directly
-API_KEY = "AIzaSyDP_kZivKCs5ETnkl480_Kx_iZVtx8mB6M"
+API_KEY = "Your API key"
 genai.configure(api_key=API_KEY)
 
 # Route to render the main page
